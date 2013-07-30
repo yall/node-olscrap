@@ -1,0 +1,22 @@
+{
+  "name": "olscrap",
+  "version": "0.1.0",
+  "description": "A simple one line scrapping tool.",
+  "homepage": ["http://yall.fr/projects/olscrap"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yall/node-olscrap.git"
+  },
+  "keywords": ["html", "scraping", "scraper", "cheerio", "pegjs"],
+  "author": "Jonathan Geslin <jonathan.geslin@gmail.com>",
+  "licenses": [{
+    "type": "MIT",
+    "url": ""
+  }],
+  "dependencies": {
+    "pegjs": "0.7.x",
+    "request": "*",
+    "cheerio": "0.10.4"
+  },
+  "main": "./lib/olscraper.js"
+}
