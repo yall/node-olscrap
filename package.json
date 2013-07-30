@@ -8,15 +8,18 @@
     "url": "git@github.com:yall/node-olscrap.git"
   },
   "keywords": ["html", "scraping", "scraper", "cheerio", "pegjs"],
-  "author": "Jonathan Geslin <jonathan.geslin@gmail.com>",
-  "licenses": [{
-    "type": "MIT",
-    "url": ""
-  }],
+  "author": {
+    "name": "Jonathan Geslin",
+    "email": "jonathan.geslin@gmail.com"
+  },
   "dependencies": {
     "pegjs": "0.7.x",
     "request": "*",
     "cheerio": "0.10.4"
   },
-  "main": "./lib/olscraper.js"
+  "main": "./lib/olscraper.js",
+  "bin":"bin/olscrap",
+  "engines": {
+      "node": ">= 0.8"
+  }
 }
