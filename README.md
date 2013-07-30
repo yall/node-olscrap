@@ -1,4 +1,4 @@
 Ol'scrap
 ========
 
-A simple node.js one line scrapping tool 
+A simple one line scraping node.js module 
