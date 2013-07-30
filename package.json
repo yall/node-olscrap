@@ -1,6 +1,6 @@
 {
   "name": "olscrap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple one line scrapping tool.",
   "homepage": ["http://yall.fr/projects/olscrap"],
   "repository": {
